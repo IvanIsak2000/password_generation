@@ -20,7 +20,7 @@ If user entered one, generation settings will be shown:
 
 >![image](https://user-images.githubusercontent.com/79650307/211565999-accafe75-364e-4214-a910-34c8c127c18c.png)
 
-If the conditions are correct, the question is how long the password is to be. max length = 30 symbols, min length = 6, if the password is given as a number greater than 30 it becomes 30 symbols. If it is less than 6 it becomes 6.
+If the conditions are correct, the programme asks for the length of the password. max length = 30 symbols, min length = 6, if the password is given as a number greater than 30 it becomes 30 symbols. If it is less than 6 it becomes 6.
 
 ERROR HANDLING
 -----
@@ -37,10 +37,11 @@ If the entered values are correct, the program will generate a password and prin
 COMPILATION
 ---
 If you want to use the program with a .exe extension, copy the code, open any text editor, save it under password_generation.py. Then open a command prompt and type in the directory where you saved the program.
-Then type **pip3 install pyinstaller** to install the library, once the installation is complete you can start compiling.To do this write **pyinstaller --onefile password_generation.py** 
+Then type **pip install pyinstaller** to install the library, once the installation is complete you can start compiling.To do this write **pyinstaller --onefile password_generation.py** 
 The result is usually saved in **dict** folder: this will be our .exe file 🐍
 >![image](https://user-images.githubusercontent.com/79650307/211572138-c7c60d1e-bab2-4c5e-9a89-ca350c232012.png)
 >![image](https://user-images.githubusercontent.com/79650307/211572373-cf60a7e7-bcf5-4dc2-a4d5-27f0430c9187.png)
+>More about the pyinstaller library: https://pypi.org/project/pyinstaller/
 
 
 
@@ -86,3 +87,4 @@ RU
 Результат обычно сохраняется в папке **dict**: там будет наш .exe файл 🐍
 >![image](https://user-images.githubusercontent.com/79650307/211572138-c7c60d1e-bab2-4c5e-9a89-ca350c232012.png)
 >![image](https://user-images.githubusercontent.com/79650307/211572373-cf60a7e7-bcf5-4dc2-a4d5-27f0430c9187.png)
+>Больше о библиотеке pyinstaller: https://pypi.org/project/pyinstaller/
