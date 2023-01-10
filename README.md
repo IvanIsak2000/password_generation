@@ -41,6 +41,7 @@ Then type **pip install pyinstaller** to install the library, once the installat
 The result is usually saved in **dict** folder: this will be our .exe file 🐍
 >![image](https://user-images.githubusercontent.com/79650307/211572138-c7c60d1e-bab2-4c5e-9a89-ca350c232012.png)
 >![image](https://user-images.githubusercontent.com/79650307/211572373-cf60a7e7-bcf5-4dc2-a4d5-27f0430c9187.png)
+
 >More about the pyinstaller library: https://pypi.org/project/pyinstaller/
 
 
@@ -87,4 +88,5 @@ RU
 Результат обычно сохраняется в папке **dict**: там будет наш .exe файл 🐍
 >![image](https://user-images.githubusercontent.com/79650307/211572138-c7c60d1e-bab2-4c5e-9a89-ca350c232012.png)
 >![image](https://user-images.githubusercontent.com/79650307/211572373-cf60a7e7-bcf5-4dc2-a4d5-27f0430c9187.png)
+
 >Больше о библиотеке pyinstaller: https://pypi.org/project/pyinstaller/
