@@ -1,13 +1,52 @@
 # password generation
- en
-===========
-This program generates a password of a given length according to the given parameters.
-You can set the password to have letters, numbers or special characters
-***
+EN
+=======
+MAIN
+---
+This program generates a password of a specified length according to the parameters you set.
+You can set a password consisting of letters, numbers or special characters.
+
+A welcome screen is displayed at startup, followed by a question: if you want to activate the program (press 1) or deactivate it (press minus).
+>![image](https://user-images.githubusercontent.com/79650307/211566206-547f8a60-45ae-427d-9926-ab05bf7d4e7c.png)
+
+GENERATION SETTINGS
+---
+If user entered one, generation settings will be shown:
+1. First setting: should the password have digits, if yes then press 1, otherwise press 2.
+2. Second setting: must the password have letters, if YES, then press 1, otherwise 2.
+3. third setting: must the password include special characters, if yes, then 1, otherwise 2.
 
 
 
-ru
+>![image](https://user-images.githubusercontent.com/79650307/211565999-accafe75-364e-4214-a910-34c8c127c18c.png)
+
+If the conditions are correct, the question is how long the password is to be. max length = 30 symbols, min length = 6, if the password is given as a number greater than 30 it becomes 30 symbols. If it is less than 6 it becomes 6.
+
+ERROR HANDLING
+-----
+Outputs a message when an input error occurs:
+>![image](https://user-images.githubusercontent.com/79650307/211568358-1993f941-d21b-4080-a6b0-ef8c7691c27e.png)
+>
+>In this case, the user has entered a character instead of a number which defines the length of the password and an error is therefore printed.
+
+RESULT
+---
+If the entered values are correct, the program will generate a password and print it out:
+>![image](https://user-images.githubusercontent.com/79650307/211569000-e4b0deb5-62a0-4cf6-93a4-a9cf3c1b9ea6.png)
+
+COMPILATION
+---
+If you want to use the program with a .exe extension, copy the code, open any text editor, save it under password_generation.py. Then open a command prompt and type in the directory where you saved the program.
+Then type **pip3 install pyinstaller** to install the library, once the installation is complete you can start compiling.To do this write **pyinstaller --onefile password_generation.py** 
+The result is usually saved in **dict** folder: this will be our .exe file 🐍
+>![image](https://user-images.githubusercontent.com/79650307/211572138-c7c60d1e-bab2-4c5e-9a89-ca350c232012.png)
+>![image](https://user-images.githubusercontent.com/79650307/211572373-cf60a7e7-bcf5-4dc2-a4d5-27f0430c9187.png)
+
+
+Translated with www.DeepL.com/Translator (free version)
+
+
+RU
 =======
 ОСНОВНОЕ
 ---
