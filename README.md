@@ -43,8 +43,6 @@ The result is usually saved in **dict** folder: this will be our .exe file 🐍
 >![image](https://user-images.githubusercontent.com/79650307/211572373-cf60a7e7-bcf5-4dc2-a4d5-27f0430c9187.png)
 
 
-Translated with www.DeepL.com/Translator (free version)
-
 
 RU
 =======
