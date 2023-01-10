@@ -1,10 +1,12 @@
+
+
 import random
 import string
 print("!PASSWORD GENERATOR!")
 
 
 def ex():
-    z = input("PRESS ANY BUTON FOR EXIT")#EXIT FUNCTION
+    z = input("PRESS ANY BUTON FOR EXIT")
     exit()
 
 
@@ -18,10 +20,9 @@ while user_input != "-":
         print("SETTINGS:")
 
         try:
-            adding_a_digit = int(input("Digits On? Yes(1)/No(2)"))
+            adding_a_digit = int(input("Digits On? Yes(1)/No(2) "))
             adding_letters = int(input("Letters On? Yes(1)/No(2) "))
-            adding_special_characters = int(
-                input("Special characters On? Yes(1)/No(2)"))
+            adding_special_characters = int(input("Special characters On? Yes(1)/No(2) "))
 
             if adding_a_digit == adding_letters == adding_special_characters == 2:
                 print("CHOOSE SOMETHING!!!")
@@ -30,8 +31,11 @@ while user_input != "-":
             if adding_a_digit == 1 or adding_a_digit == 2 and adding_letters == 1 or adding_letters == 2 or adding_special_characters == 1 or adding_special_characters == 2:
                 user_password_length = int(
                     input("Write password length(max 30,min 6 ): "))
-                if user_password_length > 30 or user_password_length < 6:
+                if user_password_length > 30 : 
                     user_password_length = 30
+                if user_password_length < 6:
+                    user_password_length=6
+                
                 final_password = ""
                 resultat_all = ""
 
@@ -60,7 +64,7 @@ while user_input != "-":
             else:
                 ex()
         except BaseException:
-            print("ERROR!", EOFError)
+            print("!!!ERROR!!!")
 
     if user_input == "-":
         ex()
